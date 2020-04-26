@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" href="view.css"/>
+    </head>
+        <body>
+           
+                <h2 class="heading">Student Registration Details:</h2>
+                <fieldset class="fieldset">
+                <form action="insert_student.jsp" method="get" class="s">
+        <table class="text">
+            <tr><th> Enrollment No:</th><td><input type="En_no" placeholder="Enter Your Enrollment No"name="En_No"/></td></tr>
+        
+        <tr><th>Name:</th><td><input type="text" placeholder="Enter Your Name" name="Name"/></td></tr>
+        
+        <tr><th>Semester:</th><td>
+        <select name="Sem">
+            <optgroup label="Sem">
+        <option value="1">Sem 1</option>
+        <option value="2">Sem 2</option>
+        <option value="3">Sem 3</option>
+        <option value="4">Sem 4</option>
+        <option value="5">Sem 5</option>
+        <option value="6">Sem 6</option>
+        <option value="7">Sem 7</option>
+        <option value="8">Sem 8</option>
+            </optgroup>
+        </select>
+            </td></tr>
+        <tr><th>Branch:</th><td><input type="text" placeholder="Enter Your Branch" name="Branch"/>
+            </td></tr>
+        
+        <tr><th>Email Id:</th><td><input type="email" placeholder="Enter Your Email Id" name="Email"/>
+            </td></tr>
+            <br><br>
+            <tr><td></td><td>
+                    <input type="submit" name="submit" value="submit"/></td></tr>
+        </table>
+            </form>
+            </fieldset>
+    </body>
+</html>

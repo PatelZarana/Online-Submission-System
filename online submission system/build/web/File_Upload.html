@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>File Update Details</title>
+        <link rel="stylesheet" href="view.css"/>
+    </head>
+    <body>
+        
+                <h2 class="heading">File Update Details:</h2>
+                <fieldset class="fieldset">
+        <form action="faculty_file_upload.jsp" method="get" class="s">
+            <table class="text">
+                <tr><th>Faculty Id:</th><td><input type="text" placeholder="Enter Your Id" name="F_Id"/></td></tr>
+            <tr><th>Semester:</th><td><input type="text" placeholder="Enter Semester" name="Sem"/></td></tr>
+            <tr><th>Subject Code:</th><td><input type="text" placeholder="Enter Subject Code" name="Sub_Code"/></td></tr>
+            <tr><th>File no:</th><td><input type="text" placeholder="Enter File No" name="File_No"/></td></tr>
+        
+            <tr><th>File Upload:</th><td><input type="file" name="Upload_File" accept="plain/text"/></td></tr>
+        
+        <tr><th>Due Date:</th><td><input type="datetime" name="Due_Date"/></td></tr>
+        <tr><td></td><td>
+        <input type="submit" value="submit"/></td></tr>
+            </table>
+            
+        </form>
+        </fieldset>
+    </body>
+</html>

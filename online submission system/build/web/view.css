@@ -1,0 +1,19 @@
+        .heading
+          {             
+            color:navy; 
+            margin-left: 500px;
+            margin-top:250px;
+            margin-right:500px;
+          }
+        .fieldset
+        {
+            text-decoration: darkblue;
+            margin-bottom:250px;
+            margin-left: 500px;
+            margin-right:500px;
+            background-image: url(image.jpg);
+        }
+        .text
+        {           
+            color:#330000;
+        }
